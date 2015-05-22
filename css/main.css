@@ -1,0 +1,41 @@
+body{
+	background:#a5a5a5;
+}
+form{
+	background:#fff;
+	padding:20px;
+	width:25%;
+	margin:0 auto;
+}
+.progressBar{
+	height:100%;
+	width:50%;
+	background-color:#d8e6ae;
+}
+.progressPercentage{
+	position:absolute;
+	left:45%;
+	top:10px;
+}
+input[type="button"] {
+	background-color: #ccc;
+	border: 1px solid #999;
+}
+#progress1{
+	position:relative;
+	height:40px;
+	width:300px;
+	border:1px solid black;
+}
+#progress2{
+	position:relative;
+	height:40px;
+	width:300px;
+	border:1px solid black;
+}
+#progress3{
+	position:relative;
+	height:40px;
+	width:300px;
+	border:1px solid black;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>Progress Bars Demo</title>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>	
+	<body>
+		<form>
+			<h1>Progress Bars Demo</h1>			
+			<div id="progress1">
+				<div class="progressBar"></div>
+				<div class="progressPercentage">50%</div>
+			</div>
+			<br><br>
+			<div id="progress2">
+				<div class="progressBar"></div>
+				<div class="progressPercentage">50%</div>
+			</div>
+			<br><br>
+			<div id="progress3">
+				<div class="progressBar"></div>
+				<div class="progressPercentage">50%</div>
+			</div>
+			<br><br>
+			<select id="progressID">
+				<option>#progress1</option>
+				<option>#progress2</option>
+				<option>#progress3</option>
+			</select>
+			<input type="button" onclick="customizeProgress(-25)" value="-25" />
+			<input type="button" onclick="customizeProgress(-10)" value="-10" />
+			<input type="button" onclick="customizeProgress(+10)" value="+10" />
+			<input type="button" onclick="customizeProgress(+25)" value="+25" />
+		</form>
+	</body>
+</html>
